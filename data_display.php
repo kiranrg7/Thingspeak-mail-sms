@@ -94,7 +94,7 @@ $(document).ready(function(){
 <center>	
 <div class="container">
   <table class="table table-bordered">
-    <th colspan="2"> Thingspeak Field1 data are</th>
+    <th colspan="2"> Thingspeak recorded temperature data in degree celcius</th>
   <tr> <td>  First data </td>  <td id="data"> </td></tr> 
    <tr> <td> Second data <td id="data2"> </td></tr> 
    

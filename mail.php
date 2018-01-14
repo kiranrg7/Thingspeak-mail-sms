@@ -9,7 +9,9 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 	$smailid=$_POST["smailid"];
 	$rmailid=$_POST["rmailid"];
 	$pwd=$_POST["mpwd"];
-	$bod="Feild1 first data is $data1";
+	$user=$_SESSION["name"];
+	
+	$bod="The message is from $user  recorded temperature is  $data1 degrees celsius";
 
 
 try {

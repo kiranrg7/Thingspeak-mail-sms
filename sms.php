@@ -1,13 +1,13 @@
 <?php
 
     include('way2sms-api.php');
-	
+	session_start();
 	
     $phno=$_POST["phno"];
     $data1=$_POST["data1"];
+	$user=$_SESSION["name"];
 	
-	
-    $string="Thingspeak first data is $data1 from servelots";
+    $string="The message is from $user  recorded temperature is  $data1 degrees celsius ";
 	 
 	if(sendWay2SMS ('9738258006','S6525S' , $phno , $string))
 	{

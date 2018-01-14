@@ -94,7 +94,11 @@ $(document).ready(function(){
 <center>	
 <div class="container">
   <table class="table table-bordered">
+<<<<<<< HEAD
     <th colspan="2"> Thingspeak recorded temperature data are</th>
+=======
+    <th colspan="2"> Thingspeak recorded temperature data in degree celcius</th>
+>>>>>>> d22a867f6e2759625b638364f2e10ed121bcbb4a
   <tr> <td>  First data </td>  <td id="data"> </td></tr> 
    <tr> <td> Second data <td id="data2"> </td></tr> 
    

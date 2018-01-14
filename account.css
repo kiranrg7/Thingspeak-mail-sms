@@ -1,0 +1,179 @@
+.navbar-fixed-left {
+
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 180px;
+  
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+
+ .jumbotron {
+      margin-bottom: 0;
+	
+      background-position:center;	  
+    }
+	
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+       
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    .footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+     
+	}
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+       height:50%;
+    	margin: auto;
+      max-height:450px;
+     
+  }
+  
+  .glyphicon 
+  {
+	   color:white;
+	   text-align:center;
+	   height:20px;
+	   
+  }
+
+	/* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+
+  
+  
+  
+  
+#wrap	{
+    
+	width: 100%; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: grey;
+	margin-bottom:20px;
+
+	}
+	
+	.navbar	{
+	height: 60px;
+        padding: 0;
+	margin: 0;
+	/*position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	/*border-right: 1px solid #54879d;*/ 
+	}
+	
+	.navbar li 	{
+		
+     		      height: 40px;
+			width: 170px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 14px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0px;
+			margin: 0px;
+			background-color: grey;
+                      margin-bottom:0px;                     
+		 }
+						
+						
+						
+	.navbar a	{							
+		padding: 14px 0px;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		/*border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		/*border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		
+		
+		 .navbar li:hover, a:hover {
+			 background-color: grey;} 
+		 
+		 
+		 .navbar li ul 	{
+                  font-size: 15px;   
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+        font-size:20px;        
+		display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+						
+		.navbar li ul li {
+		
+			background-color: grey;} 
+		
+				
+.navbar li ul li a:hover	
+{background-color: #366b82;}
+
+
+.form-control
+{
+	  margin-bottom:10px;
+}
+  
+  
+  
+  .table {
+    border-bottom:0px !important;
+   width:50% !important;	
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+
+.container
+{
+	 width:auto !important;
+}
+.table,td,tr
+   {
+	        border:none;
+		font-size:18px;
+                
+		text-align:justify;
+       	}
+
+  
+  
+  

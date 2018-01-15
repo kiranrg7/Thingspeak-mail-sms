@@ -19,6 +19,7 @@ step 3: open mysql and import the sql file named servelots.sql whic is placed un
  
 
 step 4: For getting mail working follow these steps
+             
              #1  login into gmail account and in your go to settings and set allow less secure app as on in your settings.
              
              #2 and local host  for ssl certicate  copy 'cacert.pem' file and place it in any directory and copy the path of that particular directory
@@ -38,6 +39,4 @@ step 7 : now run the index.html file in browser under local host
 
 
 
-note : in this project things speak channel id and read key are static if you want to use for your channel id and read api then you can make changes in code under
-         under data.js file where 335418 channel id and  WYACO3T89W0TBNOK is read key.
-         and some the validation for fields not covered  in the application              
+note : in this project things speak channel id and read key are static if you want to use for your channel id and read api then you can make changes in code within data.js file where 335418 is channel id and  WYACO3T89W0TBNOK is read key. and some the validation for fields are not covered  in the application              

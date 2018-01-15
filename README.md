@@ -34,8 +34,7 @@ step 4: For getting mail working follow these steps
 
 step 6 : restart the xamp or wamp .
 
-step 7 : now run the index.html file in browser under local host
-             for example  : "http://localhost:8080/index.html" provide this in your browser url.
+step 7 : Now run the index.html file in browser under local host.
 
 
 

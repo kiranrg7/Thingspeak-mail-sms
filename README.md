@@ -9,7 +9,7 @@ Steps to execute the project
   
 step 1: Install wamp or xamp server 
 
-step  2: place all the files in httpd incase of xamp 
+step  2: place all the files in htdocs incase of xamp 
              or place all the files in www folder incase of wamp.
 
 step 3: open mysql and import the sql file named servelots.sql whic is placed under db file of the project. if couldn't import follow these steps
